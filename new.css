@@ -1,0 +1,122 @@
+/* General styles */
+body {
+    margin: 0; /* Remove default browser margins */
+    font-family: Arial, sans-serif; /* Set a default font */
+  }
+  
+  /* Header styles */
+  header {
+    display: flex; /* Arrange logo and heading horizontally */
+    align-items: left; /* Align content vertically */
+    justify-content: space-between; /* Distribute content evenly with space */
+    padding-right: 120px; /* Add some padding for visual appeal */
+    padding-bottom: 60px;
+    background-color: #ffb0b0; /* Light background for better contrast */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust logo width as needed */
+    height: 100px; /* Maintain logo aspect ratio */
+    padding-top: 30px;
+    padding-left: 350px;
+  }
+  
+  h1 {
+    margin: 5; /* Remove default margin for better spacing */
+    font-size: 3em; /* Set a larger heading size */
+    color: #333; /* Darker text for better readability */
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #837676; /* Light background for navigation */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center navigation links */
+  }
+  
+  nav li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin: 8px; /* Add spacing between links */
+  }
+  
+  nav a {
+    color: #ffffff; /* Darker text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bolder for emphasis */
+    padding: 10px 20px; /* Add some padding for click area */
+    background-color: #4e4e4e;
+  }
+  
+  nav a:hover { /* Style for links on hover */
+    background-color: #948787; /* Light background on hover */
+    color: #000; /* Darker text on hover */
+  }
+  
+  /* Section styles */
+  section {
+    padding: 20px; /* Add some padding for each section */
+  }
+  
+  section h2 {
+    margin-top: 0; /* Remove top margin for better flow */
+    font-size: 1.5em; /* Set a subheading size */
+    color: #2600ff; /* Darker text for headings */
+  }
+  
+  section p {
+    line-height: 1.8; /* Adjust line spacing for readability */
+  }
+  
+  /* Image container styles */
+  .image-container {
+    display: flex; /* Arrange images horizontally */
+    flex-wrap: wrap; /* Wrap images to fit on multiple lines if needed */
+    justify-content: space-evenly; /* Distribute images evenly */
+    margin: 10px auto; /* Add some margin and center images horizontally */
+  }
+  
+  .image-container img {
+    width: 200px; /* Adjust image width as needed */
+    margin: 10px; /* Add spacing between images */
+  }
+
+  .image-container2 {
+    display: flex; /* Arrange images horizontally */
+    flex-wrap: wrap; /* Wrap images to fit on multiple lines if needed */
+    justify-content: space-evenly; /* Distribute images evenly */
+    margin: 10px auto; /* Add some margin and center images horizontally */
+  }
+  .image-container2 img {
+    width: 290px; /* Adjust image width as needed */
+    margin: 10px; /* Add spacing between images */
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: left; /* Center footer content */
+    padding: 20px; /* Add some padding for bottom spacing */
+    background-color: #f17575; /* Light background for footer */
+  }
+  
+  section h2 {
+    margin-top: 0; /* Remove top margin for better flow */
+    font-size: 2em; /* Set a subheading size */
+    padding-left:20 ;
+    color: #333; /* Darker text for headings */
+  }
+
+  section li {
+    margin-top: 10; /* Remove top margin for better flow */
+    font-size: 1em; /* Set a subheading size */
+    padding-left:20 ;
+    color: #333; /* Darker text for headings */
+  }
+
+  body {
+    background-color: #c4c3b3; /* Change the hex code for your desired color */
+  }
